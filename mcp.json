@@ -1,0 +1,34 @@
+{
+  "name": "samaltman-ai-mcp",
+  "version": "1.0.0",
+  "description": "Sam Altman AI Model Context Protocol Server for Autonomous AGI Orchestration, Universal Basic Compute & Planetary Energy Protocol",
+  "tools": [
+    {
+      "name": "audit_agi_compute_alignment",
+      "description": "Audit cluster compute allocations, verify model reasoning traces against superalignment safety constraints, and benchmark scaling law efficiency",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "model_id": { "type": "string" },
+          "compute_cluster": { "type": "string" },
+          "alignment_spec": { "type": "string" }
+        },
+        "required": ["model_id", "compute_cluster"]
+      }
+    },
+    {
+      "name": "disburse_universal_basic_compute",
+      "description": "Trigger automated micro-escrow releases for verified human identity wallets (Universal Basic Compute dividends) and clean fusion energy infrastructure grants",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": { "type": "string" },
+          "recipient": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "proof_hash": { "type": "string" }
+        },
+        "required": ["category", "recipient", "amount_wei"]
+      }
+    }
+  ]
+}
